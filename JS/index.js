@@ -1,7 +1,7 @@
 $("aside").hide();
 $(".content").hide();
 
-$(".loader-container").delay(3000).hide(1,function(){
+$(".loader-container").delay(9000).hide(1,function(){
   $("body").addClass("setBackground");
   $("aside").show();
   $(".content").show();
